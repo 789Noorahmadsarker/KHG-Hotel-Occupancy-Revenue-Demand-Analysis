@@ -71,8 +71,8 @@ print(by_category.map("{:,}".format).to_string())
 
 # %%
 # By individual hotel. Hotel names repeat across cities (for example there is an
-# "Atliq Grands" in four cities), and even name + city is not unique in the hotel list
-# (property IDs 16559 and 17559 are both "Atliq Exotica, Mumbai"). Grouping by property ID
+# "Kaveri Grands" in four cities), and even name + city is not unique in the hotel list
+# (property IDs 16559 and 17559 are both "Kaveri Exotica, Chennai"). Grouping by property ID
 # keeps every hotel separate.
 by_hotel = (
     data.groupby(["property_id", "property_name", "city"])["revenue_realized"]
