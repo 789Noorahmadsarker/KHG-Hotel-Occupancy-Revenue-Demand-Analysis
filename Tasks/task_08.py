@@ -4,7 +4,7 @@
 # **Problem statement:** Hotel managers judge performance with three headline numbers:
 # how full the rooms are (occupancy), how much a used room earns (ADR) and how much every
 # available room earns, used or not (RevPAR). Calculate them for every city, hotel category,
-# room class and individual hotel, and explain why the city with the fullest rooms (Delhi)
+# room class and individual hotel, and explain why the city with the fullest rooms (Bangalore)
 # earns the least total money.
 #
 # **KPI glossary (plain English)**
@@ -22,7 +22,7 @@
 # **Why these figures differ slightly from Tasks 3 to 5:** those tasks averaged each day's
 # percentage, which treats a small room type and a large one equally. Here we divide the total
 # rooms booked by the total rooms available (the standard hotel-industry method), so every room
-# counts equally. The gap is about one point (for example Delhi: 61.5% in Task 3, 60.5% here).
+# counts equally. The gap is about one point (for example Bangalore: 61.5% in Task 3, 60.5% here).
 #
 # **Run Tasks 1 and 2 first.**
 
